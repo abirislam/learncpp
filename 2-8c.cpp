@@ -1,3 +1,5 @@
+// this file should be compiled with 2-8d.cpp
+
 #include <iostream>
 
 int getInteger();

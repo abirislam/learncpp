@@ -1,3 +1,5 @@
+// this file should be compiled with 2-8b.cpp
+
 #include <iostream>
 
 int add(int x, int y);
