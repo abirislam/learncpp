@@ -1,5 +1,4 @@
-int readNumber();
-void writeAnswer(int answer);
+#include "2-x_io.h"
 
 int main() {
     int num1 { readNumber() };
