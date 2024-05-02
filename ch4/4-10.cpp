@@ -5,6 +5,7 @@ int main() {
     int x{};
     std::cin >> x;
 
+
     if (x == 1)
         std::cout << "Thanks for entering the true number!\n";
     else if (x == 0)
