@@ -8,7 +8,7 @@ constexpr int greater(int x, int y) {
 
 int main() {
     // this is always evaluated at compile-time
-    // the return value is used where a constant expression is required
+    // a constexpr expression must be evaluated at compile time if the return value is used where a constant expression is required
     // thus, greater() must be evaluated at compile time
     constexpr int g { greater(5, 6) };
     std::cout << g << " is greater!\n";
