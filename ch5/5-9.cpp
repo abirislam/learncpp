@@ -23,11 +23,14 @@ int main() {
     
     std::cout << "Enter your full name:\t";
     std::string fullName{};
+
+    // std::ws is an input manipulator that tells std::cin to ignore any leading whitespace before extraction
     std::getline(std::cin >> std::ws, fullName);
 
     std::cout << "Enter your favorite color: ";
     std::string color{};
     std::getline(std::cin >> std::ws, color);
     std::cout << "Your full name is " << fullName << " and your favorite color is " << color << '\n';
+    std::cout << "Your full name has " << fullName.length() << " characters.\n";
     return 0;
 }
