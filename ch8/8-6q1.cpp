@@ -22,7 +22,7 @@ constexpr int calculate(int a, int b, char c)
 
 int main()
 {
-    // hello
+    // hello world
     std::cout << calculate(1, 2, '+') << '\n';
     std::cout << calculate(2, 2, '-') << '\n';
     std::cout << calculate(1, 2, '*') << '\n';
