@@ -10,6 +10,7 @@ int main() {
     return 0;
 }
 
+// use static_cast<type> to change the type of a variable to a diff type explicitly
 int convertToAscii(char in) {
     return static_cast<int>(in);
 }
