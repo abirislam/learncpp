@@ -1,4 +1,5 @@
 #include <iostream>
+#include "ch2_defs.h"
 
 int getNum() {
     int num{};
