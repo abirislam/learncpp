@@ -6,5 +6,8 @@
 #include "ch4_funcs.h"
 
 int main() {
-
+    double a{ takeInput() };
+    double b{ takeInput() };
+    char c{ detOperation() };
+    doMaths(a, b, c);
 }

@@ -4,4 +4,4 @@ ch4.o:
 	$(FLAGS) ch4.cpp ch4_funcs.cpp -o ch4
 
 clean:
-	rm *.o output
+	rm ch4
