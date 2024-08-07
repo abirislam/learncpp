@@ -6,16 +6,14 @@
 // 6) forward declare a function with its definition in another file
 // 7) create a header file with the functions from 6 that include the forward declarations
 
-
 #include <iostream>
-#include "ch2_defs.h"
+#include "ch2_funcs.h"
 
 int main() {
+    int x { subtract(5, 10) };
+    int input { getValueFromUser() };
+    std::cout << "You have entered: " << input << '\n';
+    std::cout << "Your number squared is: " << squareInput(input) << '\n';
 
-    int a { getNum() };
-    printNum(a);
-    std::cout << "Your number squared is: " << squareNum(a) << '\n';
-    std::cout << "Your number plus my number is: " << twoSum(a, 63) << '\n';
-    
     return 0;
 }
